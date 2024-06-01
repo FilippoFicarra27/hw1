@@ -1,0 +1,336 @@
+body{
+    margin:0px;
+    
+}
+
+h4{
+    font-family: titillium web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:gray;
+}
+
+.hidden{
+    display:none;
+}
+
+
+
+
+span{
+    color:rgb(90, 30, 15);
+    font-size: 90px;
+    font-weight: 700px;
+    margin-bottom: -20px;
+}
+
+.immagini_cerchi{
+    height:40%;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#immagine_omino{
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    position:fixed;
+    left:10px;
+    bottom: 10px;
+}
+
+
+nav{
+    height:15vh;
+    display:flex;
+    justify-content:space-around;
+    background-color:#f8c352;
+    
+}
+
+
+
+section{
+    background-color:rgb(251, 247, 236);
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center; 
+    padding-bottom: 150px;
+}
+
+section a{
+    text-decoration: none;
+}
+
+.sottolineato{
+    text-decoration:underline;
+}
+
+section h2{
+    font-family:'Crimson Pro', sans-serif;
+    text-align: center;
+    color:rgb(90, 30, 15);
+    font-size:48px;
+    margin-bottom:-10px;
+}
+section h3{
+    font-size:30px;
+    font-family:'Crimson Pro', sans-serif;
+    text-align:center;
+    color:rgb(90, 30, 15);
+}
+section p{
+    color: rgb(90, 30, 15);
+    font-family: "titillium web", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    
+}
+
+.a_button{
+    border-radius:20px;
+    padding:12px 48px;
+    font-family: "titillium web", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.sfondo_grigio{
+    background-color:#007a8c;
+    color: #fbf7ec;
+}
+.sfondo_blu{
+    background-color:rgb(85, 27, 17);
+    color: #fbf7ec;
+    margin-left: 10px;
+}
+
+
+
+
+#div_registrazione_accesso{
+    display:flex;
+    justify-content: space-around;
+}
+
+#div_registrazione{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+
+
+.riga_grigia{
+    border-left: 1px solid #bcb6af;
+    padding-left: 50px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div_accesso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#credenziali_mail_telefono{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#credenziali_mail_telefono a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:12px 20px;
+    
+}
+
+
+#credenziali_mail_telefono img{
+    height:30px;
+    width:30px;
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+form p{
+    text-align: left;
+    width:100%;
+}
+
+#form_registrazione{
+    width:60%;
+}
+
+
+
+.testo_form{
+    width:90%;
+    
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #bcb6af;
+    font-family: titillium web, sans-serif;
+    background-color: transparent;
+    font-family: titillium web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 18px;
+    font-size: 20px;
+    color:#bcb6af;
+    
+}
+
+
+
+
+#div_submit{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#social_login{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+#social_login img{
+    height:50px;
+    width:50px;
+    margin-left: 10px;
+}
+
+
+footer{
+    background-color: rgb(251, 247, 236);
+}
+
+
+footer p{
+    color:rgb(77, 25, 0);
+    font-family: "titillium web", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    line-height: 14px;
+    
+}
+footer a{
+    color:rgb(77, 25, 0);
+}
+
+.div_sopra{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+div.div_sopra img{
+    width:12%;
+    margin-top:-50px;
+}
+#div_contatti{
+    width:55%;
+    margin:20px 10px 3px 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#div_contatti a{
+    text-decoration:none;
+    
+}
+.div_ricette{
+    width:70%;
+    margin:-18px 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.div_pan_di_stelle{
+    margin-top:10px;
+    margin-bottom:20px;
+    width: 23%;
+    text-align: center;
+}
+
+.div_pan_di_stelle p{
+
+    font-family: "titillium web", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    height: 12px;
+    
+}
+
+.div_pan_di_stelle a{
+    text-decoration: none;
+    color: rgb(0, 122, 194);
+}
+
+
+
+
+#div_gestisci{
+    border:1px solid rgb(104, 182, 49);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:22px;
+    padding-right:22px;
+    text-align: center;
+    color:rgb(104, 182, 49);
+}
+
+
+#div_gestisci:hover{
+    background-color:rgb(104, 182, 49);
+    color:white;
+}
+
+
+
+#div_social{
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(77,25,0);
+}
+
+
+#div_social img{
+    margin: 10px 40px;
+    height:40px;
+    width:40px;
+}
