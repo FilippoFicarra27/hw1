@@ -64,8 +64,7 @@ CREATE TABLE AFFERENZA(
 
 
 SELECT * FROM UTENTE;
-DELETE FROM UTENTE WHERE Email='ciao';
-DELETE FROM UTENTE WHERE Email='mgfhruhrufhrufrufjri';
+
 SELECT * FROM AFFERENZA;
 
 
@@ -73,4 +72,3 @@ UPDATE PRODOTTI SET Nome='Pangrì classici' WHERE Id=31;
 
 SELECT * FROM AFFERENZA A JOIN PRODOTTI P ON A.Prodotto=P.Id;
 
-UPDATE AFFERENZA SET Mail='domenico@gmail.com' WHERE Mail='domenicomanfredi@gmail.com';
